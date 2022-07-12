@@ -1,2 +1,4 @@
+# On ignore les node_modules car ils font la masse du soleil en poid
 node_modules/
+# On ignore le dossier coverage généré par jest
 coverage
