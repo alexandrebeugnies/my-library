@@ -8,14 +8,14 @@ export interface QuoteInterface{
 export const quotes:QuoteInterface[] = [
   {
     author: 'Amaury',
-    quote: "J'arrive dans deux minutes je te stimule",
+    quote: "J'arrive dans deux minutes je te stimule"
   },
   {
     author: 'Amaury',
-    quote: 'La grosse moulaaaaaaaa',
+    quote: 'La grosse moulaaaaaaaa'
   },
   {
     author: 'Dramix',
-    quote: 'J\'ai beau être matinal,YAML',
-  },
-];
+    quote: 'J\'ai beau être matinal,YAML'
+  }
+]
