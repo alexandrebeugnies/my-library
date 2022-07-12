@@ -14,5 +14,8 @@ export const quotes:QuoteInterface[] = [
     author: 'Amaury',
     quote: 'La grosse moulaaaaaaaa',
   },
-
+  {
+    author: 'Dramix',
+    quote: 'J\'ai beau être matinal,YAML',
+  },
 ];
