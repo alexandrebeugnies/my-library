@@ -1,0 +1,5 @@
+//** Récupère  **/
+
+export function getRandomCitation(){
+
+}
