@@ -1,0 +1,6 @@
+name: Tests CI/CD
+
+on: ["push"]
+
+jobs: 
+ dummy-job:
