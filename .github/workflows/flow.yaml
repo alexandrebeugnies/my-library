@@ -15,7 +15,11 @@
       runs-on: ${{ matrix.os }}
       steps:
         - run: ls -la
-          if: ${{runner.os =='linux'}}
+        # On fait seulement ls -la si l'on est sous un os linux
+          if: ${{runner.os =='linux' || runner.os == 'macos'}}
+        - run: dir
+        # On fait dir seulement sur windows
+          if: ${{runner.os =='windows'}}
         # on récupère le contenu du dépôt
         - uses: actions/checkout@v3
         - run: ls -la
