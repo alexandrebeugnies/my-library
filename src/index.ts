@@ -1,5 +1,5 @@
-//** Récupère une citation aléatoire de TRIPTYK  **/
+//* * Récupère une citation aléatoire de TRIPTYK  **/
 
-export function getRandomCitation(){
+export function getRandomCitation() {
 
 }
