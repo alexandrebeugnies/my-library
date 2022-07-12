@@ -61,6 +61,7 @@
         "nodelib",
         "optionator",
         "picomatch",
+        "printenv",
         "punycode",
         "realpath",
         "Récupère",
