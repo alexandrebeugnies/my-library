@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
+        "aléatoire",
         "argparse",
         "callsites",
         "concat",
@@ -18,8 +19,10 @@
         "optionator",
         "punycode",
         "realpath",
+        "Récupère",
         "regexpp",
         "rimraf",
+        "TRIPTYK",
         "wrappy"
     ]
 }
