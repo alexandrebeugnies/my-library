@@ -1,24 +1,24 @@
 module.exports = {
   env: {
     es2021: true,
-    node: true,
+    node: true
   },
   extends: ['standard'],
   settings: {
     'import/resolver': {
       node: {
         extensions: ['.js', '.ts']
-      },
-    },
+      }
+    }
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module',
+    sourceType: 'module'
   },
   plugins: ['@typescript-eslint'],
   rules: {
     // on désactive la règle
-    'import/prefer-default-export': 'off',
-  },
-},
+    'import/prefer-default-export': 'off'
+  }
+}
