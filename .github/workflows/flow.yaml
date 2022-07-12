@@ -24,3 +24,5 @@ jobs:
    - run: printenv
    - run: echo ${{github.actor}} ${{github.event_name}}
    - run: node dummy.js 
+     env:  
+      DATABASE_NAME: 'override du database'
