@@ -21,5 +21,6 @@ jobs:
        node-version: 18
    - run: node -v
    # ${{ }} utilise une variable
+   - run: printenv
    - run: echo ${{github.actor}} ${{github.event_name}}
    - run: node dummy.js 
