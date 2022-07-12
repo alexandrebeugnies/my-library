@@ -5,5 +5,5 @@ test('It gets a random quote', () => {
   const randomQuote = getRandomQuote()
 
   //! On vérifie que l'on récupère bien une citation
-  expect(randomQuote).toContain(quotes)
+  expect(quotes).toContain(randomQuote)
 })
