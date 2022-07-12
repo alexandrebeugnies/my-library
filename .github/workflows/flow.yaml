@@ -9,3 +9,4 @@ jobs:
   steps:
    - run: ls -la
    - uses: action/checkout@v3 
+   - run: ls -la
