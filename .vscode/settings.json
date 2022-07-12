@@ -1,0 +1,25 @@
+{
+    "cSpell.words": [
+        "argparse",
+        "callsites",
+        "concat",
+        "espree",
+        "esquery",
+        "esrecurse",
+        "estraverse",
+        "esutils",
+        "extglob",
+        "humanwhocodes",
+        "imurmurhash",
+        "isexe",
+        "jsonify",
+        "levn",
+        "minimatch",
+        "optionator",
+        "punycode",
+        "realpath",
+        "regexpp",
+        "rimraf",
+        "wrappy"
+    ]
+}
