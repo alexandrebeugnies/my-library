@@ -8,5 +8,6 @@ jobs:
   runs-on: ubuntu-latest
   steps:
    - run: ls -la
+   # On récupère le contenu du dépôt
    - uses: actions/checkout@v3 
    - run: ls -la
