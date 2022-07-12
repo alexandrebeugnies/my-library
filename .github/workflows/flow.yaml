@@ -22,6 +22,7 @@ jobs:
    - run: node -v
    # ${{ }} utilise une variable
    - run: printenv
+   # Les variables d'env sont passées dans le script 
    - run: echo ${{github.actor}} ${{github.event_name}}
    - run: node dummy.js 
      env:  
