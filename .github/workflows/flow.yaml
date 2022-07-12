@@ -18,4 +18,4 @@ jobs:
        node-version: 18
    - run: node -v
    # ${{ }} utilise une variable
-   - run: echo ${{github.actor}}
+   - run: echo ${{github.actor}} ${{github.event_name}}
