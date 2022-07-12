@@ -84,5 +84,8 @@
         "weakref",
         "wrappy",
         "yargs"
-    ]
+    ],
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-workflow.json": "file:///home/alex/www/my-library/.github/workflows/flow.yaml"
+    }
 }
