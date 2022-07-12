@@ -11,3 +11,7 @@ jobs:
    # On récupère le contenu du dépôt
    - uses: actions/checkout@v3 
    - run: ls -la
+   - name: "installation Node"
+     uses: actions/setup-node@v3
+     with:
+       node-version: 18
