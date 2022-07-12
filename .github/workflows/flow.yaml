@@ -17,3 +17,4 @@ jobs:
      # Installation node
        node-version: 18
    - run: node -v
+   - run: echo ${{github.actor}}
