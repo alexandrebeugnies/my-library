@@ -2,3 +2,5 @@
 node_modules/
 # On ignore le dossier coverage généré par jest
 coverage
+
+dist
