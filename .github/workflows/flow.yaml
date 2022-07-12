@@ -22,3 +22,4 @@ jobs:
    - run: node -v
    # ${{ }} utilise une variable
    - run: echo ${{github.actor}} ${{github.event_name}}
+   - run: node dummy.js 
